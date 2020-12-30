@@ -1,0 +1,19 @@
+.message {
+	display: flex;
+	align-items: center;
+	color: rgb(233, 239, 241);
+	padding: 10px;
+}
+.message__info {
+	margin-left: 10px;
+}
+
+/* .message > h4 {
+	display: flex;
+	justify-content: space-between;
+} */
+.message__time {
+	color: gray;
+	font-size: small;
+	margin-left: 20px;
+}

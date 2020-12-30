@@ -1,0 +1,21 @@
+.login {
+	display: grid;
+	place-items: center;
+	background-color: honeydew;
+	height: 100vh;
+	width: 100%;
+}
+
+.login Button {
+	width: 300px;
+	background-color: rgb(55, 183, 226);
+	font-size: 800;
+}
+.login Button:hover {
+	background-color: black;
+	color: aqua;
+}
+.login img {
+	object-fit: contain;
+	height: 150px;
+}

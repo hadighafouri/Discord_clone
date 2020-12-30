@@ -1,0 +1,57 @@
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	flex: 0.25;
+	height: 100vh;
+	background-color: rgb(48, 52, 59);
+	color: rgb(150, 148, 148);
+}
+.sidebar__top {
+	display: flex;
+	padding: 5px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: darkslategray;
+	color: floralwhite;
+	border-bottom: 3px dolid grey;
+}
+.sidebar__header {
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+}
+.voice {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: rgb(0, 128, 128);
+}
+.sidebar__voiceInfo {
+	padding-left: 5px;
+	flex: 1;
+}
+.sidebar__voiceIcons {
+	/* display: flex; */
+	padding-left: 5px;
+}
+.sidebar__voiceInfo > h3 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.sidebar__voiceInfo > p {
+	margin-top: 0px;
+	font-size: smaller;
+	margin-right: 5px;
+}
+.sidebar__voicecall {
+	padding: 5px;
+}
+.sidebar__profile {
+	display: flex;
+}
+.sidebar__profileInfo {
+	margin-left: 10px;
+	margin-right: 10px;
+	align-self: center;
+}

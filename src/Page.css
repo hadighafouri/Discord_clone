@@ -1,0 +1,40 @@
+.page {
+	display: flex;
+	flex-direction: column;
+	flex: 0.75;
+	padding: 5px;
+	background-color: #9aa4ad;
+	height: 100vh;
+}
+.page__input {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: rgb(166, 172, 166);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 15px;
+	border-top: 2px solid rgb(224, 216, 219);
+	background-color: rgb(82, 82, 104);
+}
+form > input {
+	font-size: large;
+	background: transparent;
+	color: whitesmoke;
+	outline-width: 0;
+
+	border: 0px;
+}
+form > button {
+	display: none;
+}
+.page__inputIcons {
+	padding: 5px;
+}
+.page__messages {
+	flex: 1;
+	overflow: scroll;
+}
+.page__messages::-webkit-scrollbar {
+	display: none;
+}

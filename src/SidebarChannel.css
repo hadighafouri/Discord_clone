@@ -1,0 +1,14 @@
+.sidebarChannel {
+	border-bottom: 1px solid black;
+	padding-left: 15px;
+	color: rgb(150, 148, 148);
+	padding-top: 5px;
+}
+.sidebarChannel > span {
+	color: aquamarine;
+}
+.sidebarChannel:hover {
+	color: wheat;
+	background-color: rgb(24, 78, 60);
+	cursor: pointer;
+}
