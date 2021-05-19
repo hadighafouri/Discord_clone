@@ -1,0 +1,47 @@
+[debug] [2021-05-19T10:22:46.724Z] ----------------------------------------------------------------------
+[debug] [2021-05-19T10:22:46.726Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ghafo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-19T10:22:46.726Z] CLI Version:   9.11.0
+[debug] [2021-05-19T10:22:46.726Z] Platform:      win32
+[debug] [2021-05-19T10:22:46.726Z] Node Version:  v12.14.1
+[debug] [2021-05-19T10:22:46.727Z] Time:          Wed May 19 2021 03:22:46 GMT-0700 (Pacific Daylight Time)
+[debug] [2021-05-19T10:22:46.728Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-19T10:22:46.737Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-19T10:22:46.737Z] > authorizing via signed-in user (ghafourihadi17@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ghafo\React JS\Clons\discord
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using discord-clone-a7b4f. 
+[debug] [2021-05-19T10:23:01.768Z] > refreshing access token with scopes: []
+[debug] [2021-05-19T10:23:01.768Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-19T10:23:01.967Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Wed, 19 May 2021 10:23:26 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-19T10:23:01.977Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/discord-clone-a7b4f [none]
+[debug] [2021-05-19T10:23:02.189Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/discord-clone-a7b4f 200
+[debug] [2021-05-19T10:23:02.189Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/discord-clone-a7b4f {"projectId":"discord-clone-a7b4f","projectNumber":"270120432900","displayName":"discord-clone","name":"projects/discord-clone-a7b4f","resources":{"hostingSite":"discord-clone-a7b4f","realtimeDatabaseInstance":"discord-clone-a7b4f","storageBucket":"discord-clone-a7b4f.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
